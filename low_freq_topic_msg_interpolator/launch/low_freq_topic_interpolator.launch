@@ -1,0 +1,19 @@
+<launch>
+
+<!-- 
+    This launch file starts catabot phd filter including both lidar and camera measurements.
+
+    Author Thivanka_perera thiva@uri.edu
+ -->
+
+
+<!-- rosbag to be added here-->
+<node   name = "odom_msg_interpolator_node" 
+        pkg  = "low_freq_topic_msg_interpolator" 
+        type = "low_freq_topic_msg_interpolator_node" 
+        args = ""
+        required = "true"
+/>
+
+
+</launch>
